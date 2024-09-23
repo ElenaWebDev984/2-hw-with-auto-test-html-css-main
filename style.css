@@ -88,7 +88,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     /* !!! padding-left: 20px; !!! ПОЧЕМУ НЕ ПРИНИМАЕТ ЭТО ЗНАЧЕНИЕ ЗАЧЕМ ВЫСТАВЛЯТЬ НУЛИ ПО ВСЕМ СТОРОНАМ???*/
-    padding: 0px 0px 0px 20px; /*ГЛУПЫй БОТ! ЗАЧЕМ К НУЛЯМ ПИСАТЬ ПИКСЕЛИ???*/
+    padding: 0px 20px; /*ГЛУПЫй БОТ! ЗАЧЕМ К НУЛЯМ ПИСАТЬ ПИКСЕЛИ???*/
     list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg);
     font-size: 16px;
     line-height: 19.36px;
@@ -98,7 +98,7 @@ select {
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     /* !!! padding-left: 20px; !!! ПОЧЕМУ НЕ ПРИНИМАЕТ ЭТО ЗНАЧЕНИЕ ЗАЧЕМ ВЫСТАВЛЯТЬ НУЛИ ПО ВСЕМ СТОРОНАМ???*/
-    padding: 0px 0px 0px 20px; /*ГЛУПЫй БОТ! ЗАЧЕМ К НУЛЯМ ПИСАТЬ ПИКСЕЛИ???*/
+    padding: 0px 20px; /*ГЛУПЫй БОТ! ЗАЧЕМ К НУЛЯМ ПИСАТЬ ПИКСЕЛИ???*/
     font-size: 16px;
     line-height: 19.36px;
 }
@@ -142,7 +142,7 @@ table {
     /* Стили для таблицы */
     border: 1px solid #95A1BB;
     width: 61px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 th, td {
@@ -160,5 +160,5 @@ footer {
     /* Стили для футера */
     text-decoration: none;
     width: 78px;
-    font-size: 16px;
+    font-size: 14px;
 }
